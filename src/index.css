@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-xinze-bg: #000A1F;
+  --color-xinze-klein: #002FA7;
+  --color-xinze-klein-light: #1A4ED6;
+  --color-xinze-klein-dark: #001B63;
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+body {
+  @apply bg-xinze-bg text-slate-100 antialiased overflow-x-hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000A1F; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #002FA7; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1A4ED6; 
+}
