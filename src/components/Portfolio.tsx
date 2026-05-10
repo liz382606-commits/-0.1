@@ -54,7 +54,7 @@ export default function Portfolio() {
           className="mb-16 md:text-center"
         >
           <h2 className="text-sm font-bold text-xinze-klein-light tracking-widest uppercase mb-4">Portfolio</h2>
-          <h3 className="text-4xl font-bold text-white mb-6">垂直领域实战展示</h3>
+          <h3 className="text-4xl font-bold text-white mb-6">实战演示</h3>
           <p className="text-slate-400 max-w-2xl mx-auto">以导演思维驾驭 AI，跨越多种视觉语境与商业需求，交付具备传播力与审美品味的作品。</p>
         </motion.div>
 
